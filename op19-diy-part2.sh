@@ -19,4 +19,4 @@ sed -i 's/root::0:0:99999:7:::/root:$1$FHLZsCKT$LvLemPCPOEofaV5pyBWhP0:0:0:99999
 echo '修改时区'
 sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
 # 修改wifi设置，强制开启HT40
-cp -f $GITHUB_WORKSPACE/op19-mac80211.sh package/kernel/mac80211/files/lib/wifi/mac80211.sh
+# cp -f $GITHUB_WORKSPACE/op19-mac80211.sh package/kernel/mac80211/files/lib/wifi/mac80211.sh
