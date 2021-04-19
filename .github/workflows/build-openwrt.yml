@@ -20,14 +20,14 @@ on:
         default: 'false'
   schedule:
     - cron: 10 23 12,27 * *
-#  watch:
-#    types: started
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 19.07
+  REPO_BRANCH: 21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: op19.config
+  CONFIG_FILE: op21.config
   DIY_P1_SH: op19-diy-part1.sh
   DIY_P2_SH: op19-diy-part2.sh
   UPLOAD_BIN_DIR: false
