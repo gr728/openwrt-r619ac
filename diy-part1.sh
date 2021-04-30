@@ -19,3 +19,4 @@ sed -i '$a src-git diy1 https://github.com/xiaorouji/openwrt-passwall.git;main' 
 #Add one package to pacakge
 #cp -rf $GITHUB_WORKSPACE/custom package/
 svn checkout https://github.com/Aibx/OpenWRT-Packages/trunk/luci-app-openclash  package/custom/luci-app-openclash
+svn checkout https://github.com/Aibx/OpenWRT-Packages/trunk/luci-app-aliddns package/custom/luci-app-aliddns
